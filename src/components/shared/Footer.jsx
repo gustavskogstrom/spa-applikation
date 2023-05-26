@@ -1,6 +1,8 @@
+import './navbar&footer.css';
+
 const Footer = () => {
     return (
-        <Footer>
+        <footer>
             <div>
                 <table>
                     <tr>
@@ -14,7 +16,7 @@ const Footer = () => {
                     </tr>
                 </table>
             </div>
-        </Footer>
+        </footer>
     );
 };
 

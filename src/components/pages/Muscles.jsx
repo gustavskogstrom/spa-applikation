@@ -1,10 +1,14 @@
+import muskelImage from '../../assets/images/muskael.png';
+
+
+
 const Muscles = () => {
     return (
-    <main>
-        <div class="figure">
-            <img src="/img/muskael.png" alt="bild"/>
-        </div>
-    </main>
+        <main>
+            <div className="figure">
+                <img src={muskelImage} alt="Bild" />
+            </div>
+        </main>
     );
 };
 
