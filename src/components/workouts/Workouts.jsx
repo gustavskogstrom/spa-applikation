@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import Workout from './workouts/Workout';
+import Workout from './Workout';
 
 const Workouts = ({ workouts }) => {
     return (

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-import Workouts from './Workouts';
+import Workouts from '../workouts/Workouts';
 
 const Info = () => {
     const [workouts, setWorkouts] = useState([]);
