@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 
-import React from 'react';
-import Workouts from './components/Workouts/Workouts';
+import Workouts from './Workouts';
 
 const Info = () => {
     const [workouts, setWorkouts] = useState([]);
@@ -10,8 +9,8 @@ const Info = () => {
 
     useEffect(() => {
         const loadWorkouts = async () => { 
-        const {data} = await axios.get(url);
-        console.log(data);
+        const { data } = await axios.get(url);
+
         setWorkouts(data);
         };
 
