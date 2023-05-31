@@ -9,6 +9,7 @@ import Muscles from './components/pages/Muscles';
 
 import './assets/css/Style.css';
 import './assets/css/Colors.css';
+import './assets/css/Workouts.css';
 
 const App = () => {
     return (

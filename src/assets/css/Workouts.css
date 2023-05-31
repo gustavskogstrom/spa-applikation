@@ -1,0 +1,22 @@
+.snygg-knapp {
+    background-color: #CCCCCC;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.snygg-knapp:hover {
+    background-color: #AAAAAA;
+}
+
+.input-field {
+    display: block;
+    margin-bottom: 10px;
+}
