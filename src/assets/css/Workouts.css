@@ -1,7 +1,7 @@
 .snygg-knapp {
     background-color: #CCCCCC;
     border: none;
-    color: white;
+    color: var(--text-color);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;

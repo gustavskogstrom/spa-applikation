@@ -1,7 +1,5 @@
 import muskelImage from '../../assets/images/muskael.png';
 
-
-
 const Muscles = () => {
     return (
         <main>
